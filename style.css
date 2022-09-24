@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&display=swap");
+
+:root {
+  --Almost-White: hsl(0, 0%, 98%);
+  --Medium-Gray: hsl(0, 0%, 41%);
+  --Almost-Black: hsl(0, 0%, 8%);
+}
+
+* {
+  font-family: "Epilogue", sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  margin: 5px 20px 0 0;
+  color: var(--Almost-White);
+}
+
+.logo {
+  padding: 10px 15px 0 25px;
+}
+
+img {
+  margin: 0 10px 0 5px;
+}
+
+#login:hover {
+  color: var(--Almost-Black);
+}
+
+/* ------------hero-section---------------- */
+
+.left {
+  padding: 50px 0 0 0;
+}
+
+.heading {
+  font-size: 65px;
+  font-weight: bolder;
+  color: var(--Almost-Black);
+}
+
+.desc {
+  color: hsl(0, 0%, 41%);
+  font-weight: bold;
+  font-size: 18px;
+  padding-right: 50px;
+}
+
+.btn {
+  margin-bottom: 25px;
+}
+
+.img-main {
+  width: 100%;
+  height: 80vh;
+}
+
+@media screen and (max-width: 576px) {
+  .heading {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .img-main {
+    width: 100%;
+    height: auto;
+  }
+
+  span {
+    display: none;
+  }
+
+  .desc {
+    text-align: center;
+  }
+}
+
+/* --------footer--------- */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  padding-top: 5px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
